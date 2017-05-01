@@ -1,0 +1,157 @@
+
+body {
+	background-image: url("../images/topography.png");
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	font-size: 12px;
+	
+}
+
+
+.topbar {
+	background: #f1eef3;
+
+
+
+}
+
+.paddingor {
+	padding: 0px;
+}
+
+#myname {
+	color: #f1eef3;
+	margin: auto;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+.mynav {
+
+padding: 10px;
+
+}
+
+li a:not(:first-child){
+    border-top:1px solid #eee;
+    list-style: none;
+}
+
+
+
+
+
+h1 {
+	font-size: 28px;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+
+}
+
+.navbar-header {
+	background: #ab90f0;
+	padding: 10px;
+	margin: 0;
+}
+
+
+.navitems {
+	margin: 0;
+}
+
+.myheader {
+
+	border: 1px solid #eee;
+}
+
+#mymug {
+	float:left;
+	margin-right: 20px;
+}
+
+.abtme {
+	width: 100%;
+	
+}
+
+.abtmetxt {
+	float: left;
+}
+
+
+.textcontent {
+	padding-top: 10px;
+	line-height: 18px;
+	color: #777777;
+}
+
+/*.placeholderlinks {
+	background: #ab90f0;
+	color: #f1eef3;
+	text-align: center;
+	position: absolute;
+	padding: 20px;
+	right:0;
+	left:0;
+	bottom: 10px;
+	font-size: 16px;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+
+#myform {
+	clear: both;
+	width: 100%;
+	color: #777777;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+
+#connect {
+	float: left;
+	padding: 15px;
+	background: #f1eef3;
+	height: 200px;
+	width: 270px;
+	margin: 0 auto 0 30px;
+
+}
+
+#connectme {
+	color: #ab90f0;
+	margin: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #777777;
+	font-size: 16px;
+	text-align: center;
+}
+
+.icons {
+	position: relative;
+	margin: 20px;
+	
+}
+
+.icon:hover {
+	opacity: 0.5;
+}
+
+
+footer {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #666666;
+	text-align: center;
+	font-size: 9px;
+	color: #f1eef3;
+	border-top: 4px solid #ab90f0;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	min-width: 100%;
+}*/
+
+
