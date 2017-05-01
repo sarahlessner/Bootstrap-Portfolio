@@ -3,6 +3,7 @@ body {
 	background-image: url("images/topography.png");
 	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 	font-size: 12px;
+	margin-bottom: 80px;
 	
 }
 
@@ -11,6 +12,13 @@ body {
 	background: #f1eef3;
 
 }
+
+.navbar-fixed-bottom {
+	background: #777777;
+
+}
+
+
 
 #myname {
 	color: #f1eef3;
@@ -98,8 +106,9 @@ h1 {
 
 .panel-title {
 	font-size: 20px;
-	padding: 20px 0 20px 50px;
+	padding: 20px 0;
 	border-bottom: 1px solid #777777;
+	text-align: center;
 }
 
 .panel-default,
@@ -112,7 +121,6 @@ h1 {
 
 .panel-default {
 	padding: 10px;
-	min-width: 270px;
 }
 
 .paddingor {
@@ -136,13 +144,24 @@ h1 {
 }
 
 .icons {
-	padding-left: 15px;
+
 }
 
 .icon:hover {
 	opacity: 0.5;
 }
 
+.navbar-text {
+    color: #f1eef3 !important;
+}
+
+footer .container {
+	padding: 15px;
+}
+
+footer .navbar {
+	border-top: 3px solid #ab90f0;
+}
 
 /*.placeholderlinks {
 	background: #ab90f0;
