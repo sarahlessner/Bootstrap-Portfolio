@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +25,7 @@
 	<nav class="navbar navbar-default topbar">
 	    <div class="container">
 	       <div class="navbar-header">
-	         <a class="navbar-brand" id="myname" href="#">Sarah Lessner</a>
+	         <a class="navbar-brand" id="myname" href="#"><p>Sarah Lessner</p></a>
 	       </div>
 	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
@@ -34,9 +35,10 @@
 		     </button>
 		     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       			<ul class="nav navbar-nav navbar-right mynav">
-        			<li><a class="navlinks" href="#">About Me</a></li>	
-        			<li><a class="navlinks" href="#">Portfolio</a></li>	
-        			<li><a class="navlinks" href="#">Contact</a></li>
+        			<a class="navlinks" href="#"><li id="aboutmemenu">About Me</li></a>	
+        			<a class="navlinks" href="#"><li>Portfolio</li></a>
+
+        			<a class="navlinks" href="#"><li>Contact</li></a>
         		</ul>	
         	</div>
 	    </div>
@@ -45,8 +47,8 @@
 
 	
 
-		<div class="container">
-			<div class="row">
+	<div class="container">
+		<div class="row maincontent">
 				<div class="col-sm-8 myheader">
 					<div class="page-header">
 						<h1>About Me</h1>
@@ -55,29 +57,39 @@
 					<div class="row container-fluid abtme">
 						<div>
 							<img id=mymug class="img-responsive" width="200" src="images/headshot.jpg" alt="myface">
-						
-							<div>
-								<p>Am no an listening depending up believing. Enough around remove to barton agreed regret in or it. Advantage mr estimable be commanded provision. Year well shot deny shew come now had. Shall downs stand marry taken his for out. Do related mr account brandon an up. Wrong for never ready ham these witty him. Our compass see age uncivil matters weather forbade her minutes. Ready how but truth son new under.</p>
-
-								<p>Am no an listening depending up believing. Enough around remove to barton agreed regret in or it. Advantage mr estimable be commanded provision. Year well shot deny shew come now had. Shall downs stand marry taken his for out. Do related mr account brandon an up. Wrong for never ready ham these witty him. Our compass see age uncivil matters weather forbade her minutes. Ready how but truth son new under.</p>
-
-								<p>Am no an listening depending up believing. Enough around remove to barton agreed regret in or it. Advantage mr estimable be commanded provision. Year well shot deny shew come now had. Shall downs stand marry taken his for out. Do related mr account brandon an up. Wrong for never ready ham these witty him. Our compass see age uncivil matters weather forbade her minutes. Ready how but truth son new under.</p>
-							</div>
 						</div>
+							<div id="abtmetxt">
+								<p>Am no an listening depending up believing. Enough around remove to barton agreed regret in or it. Advantage mr estimable be commanded provision. Year well shot deny shew come now had. Shall downs stand marry taken his for out. Do related mr account brandon an up. Wrong for never ready ham these witty him. Our compass see age uncivil matters weather forbade her minutes. Ready how but truth son new under.</p>
+
+								<p>Am no an listening depending up believing. Enough around remove to barton agreed regret in or it. Advantage mr estimable be commanded provision. Year well shot deny shew come now had. Shall downs stand marry taken his for out. Do related mr account brandon an up. Wrong for never ready ham these witty him. Our compass see age uncivil matters weather forbade her minutes. Ready how but truth son new under.</p>
+
+								<p>Am no an listening depending up believing. Enough around remove to barton agreed regret in or it. Advantage mr estimable be commanded provision. Year well shot deny shew come now had. Shall downs stand marry taken his for out. Do related mr account brandon an up. Wrong for never ready ham these witty him. Our compass see age uncivil matters weather forbade her minutes. Ready how but truth son new under.</p>
+
+							</div>
 					</div>
 				</div>
 				
-				<div class="col-sm-4">
-				<div class="panel panel-default">
-          			<div class="panel-heading">
-            			<h3 class="panel-title">Connect with Me</h3>
-          			</div>
-          			<div class="panel-body">
-            			Panel content
-          			</div>
-        		</div>
-      		</div>
-		</div>
+				<div class="col-sm-4 paddingor">
+					<div class="panel panel-default">
+          				<div>
+            				<h3 class="panel-title">Connect with Me</h3>
+          				</div>
+
+          				<div class="panel-body">
+            				
+            				<div class="icons">
+								<a href="https://www.github.com/sarahlessner"><img class="img-responsive icon" width="64" height="64" src="images/github-icon.png" alt="Github"></a>
+
+								<a href="https://www.linkedin.com/in/sarah-lessner-713ab932"><img class="img-responsive icon" width="64" height="64" src="images/linkedin-icon.png" alt="Linkedin"></a>
+
+								<a href="http://stackoverflow.com/users/7697729/sarah-lessner"><img class="img-responsive icon" width="64" height="64" src="images/stackoverflow-icon.png" alt="Stackoverflow"></a>
+							</div>
+          				</div>
+        			</div>
+      			</div>
+      	</div>
+
+	</div>
 
 <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
